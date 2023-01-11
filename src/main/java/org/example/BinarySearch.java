@@ -2,7 +2,7 @@ package org.example;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int x = 14;
+        int x = 3;
         int[] arr = new int[]{1, 2, 8, 10, 10, 12, 19};
         System.out.println(numCeiling(arr, x));
     }

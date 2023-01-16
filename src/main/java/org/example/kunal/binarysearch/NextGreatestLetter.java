@@ -15,8 +15,8 @@ public class NextGreatestLetter {
      *output = 'c'
      *  */
     public static void main(String[] args) {
-        char[] arr = new char[]{'a','b','f'};
-        char target = 't';
+        char[] arr = new char[]{'c','f','j'};
+        char target = 'd';
         char arr1 = check(arr, target);
         System.out.println(arr1);
     }

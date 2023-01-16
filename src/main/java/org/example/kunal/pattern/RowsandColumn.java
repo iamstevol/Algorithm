@@ -7,7 +7,7 @@ public class RowsandColumn {
 //        pattern2(4);
 //        square(4);
 //        pattern2Num(4);
-        increaseAndDecrease(1);
+        increaseAndDecrease2(5);
     }
 
     public static void pattern(int n) {
@@ -59,6 +59,21 @@ public class RowsandColumn {
         for (int i = 0; i <= 2 * n; i++) {
             int totalCol = i > n ? 2 * n - i : i;
             for (int j = 0; j < totalCol ; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void increaseAndDecrease2(int n) {
+        for (int i = 0; i <= 2 * n; i++) {
+            int totalColInRow = i > n ? 2 * n - i : i;
+
+            int noTotalSpace = n - totalColInRow;
+            for (int s = 0; s < noTotalSpace; s++) {
+                System.out.println(" ");
+            }
+            for (int j = 0; j < totalColInRow ; j++) {
                 System.out.print("* ");
             }
             System.out.println();

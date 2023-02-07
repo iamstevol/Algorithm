@@ -9,11 +9,11 @@ public class BinarySearch2D {
     public static void main(String[] args) {
         int[][] matrix = {
                 {10, 20, 30, 40},
-                {15, 25, 35, 45},
+                {15, 25, 35, 45, 47},
                 {28, 29, 38, 50},
                 {36, 39, 45, 55},
         };
-        int target = 38;
+        int target = 47;
         System.out.println(Arrays.toString(binary2DSearch(matrix, target)));
     }
 
